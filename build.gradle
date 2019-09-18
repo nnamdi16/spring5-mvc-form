@@ -1,0 +1,22 @@
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'application'
+
+
+
+repositories {
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+dependencies {
+    providedCompile('javax.servlet:servlet-api:2.5')
+    compile( 'org.springframework:spring-webmvc:5.1.9.RELEASE')
+    runtime ('javax.servlet:jstl:1.2')
+}
