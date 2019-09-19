@@ -31,6 +31,13 @@
             <%--            <form:option value="India" label="India"/>--%>
         </form:select>
         <br><br>
+
+        Java <form:radiobutton path="favoriteLanguage" value="Java"/>
+        C# <form:radiobutton path="favoriteLanguage" value="C#"/>
+        PHP <form:radiobutton path="favoriteLanguage" value="PHP"/>
+        Ruby <form:radiobutton path="favoriteLanguage" value="Ruby"/>
+
+        <br><br>
         <input type="submit" value="Submit"/>
     </form:form>
 
