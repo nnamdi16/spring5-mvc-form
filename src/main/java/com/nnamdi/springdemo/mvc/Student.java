@@ -1,5 +1,9 @@
 package com.nnamdi.springdemo.mvc;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.LinkedHashMap;
+
 public class Student {
 
     private String firstName;
@@ -30,7 +34,29 @@ public class Student {
         this.lastName = lastName;
     }
 
+    //Write the countries names form the Java class.
+    @Autowired
+    private LinkedHashMap<String, String> countryOptions;
+
+
+    //Create a no-argument constructor to avoid nullExceptionPointer
     public Student() {
 
+        //Populate the country options: used ISO country code
+
     }
+
+    public LinkedHashMap<String, String> getCountryOptions() {
+        return countryOptions;
+    }
+
+    public void setCountryOptions(LinkedHashMap<String, String> countryOptions) {
+        this.countryOptions = countryOptions;
+    }
+
+
+
+
+
+
 }
