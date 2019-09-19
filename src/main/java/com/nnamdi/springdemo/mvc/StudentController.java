@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/student")
 public class StudentController {
     @Autowired
-    public  Student theStudent;
+    private Student theStudent;
 
     @RequestMapping("/showForm")
 
