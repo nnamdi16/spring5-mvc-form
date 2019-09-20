@@ -18,5 +18,11 @@ buildscript {
 dependencies {
     providedCompile('javax.servlet:servlet-api:2.5')
     compile( 'org.springframework:spring-webmvc:5.1.9.RELEASE')
+    compile('javax.el:javax.el-api:3.0.1-b06')
+    compile('org.hibernate:hibernate-validator:6.0.17.Final')
+    compile('org.hibernate:hibernate-validator-cdi:6.1.0.Alpha6')
+    compile('org.glassfish.web:javax.el:2.2.6')
+    compile('javax.validation:validation-api:2.0.1.Final')
+    compile('javax.inject:javax.inject:1')
     runtime ('javax.servlet:jstl:1.2')
 }
