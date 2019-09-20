@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f4de681-3eed-4744-b319-60c80834e61a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/spring_web_main_war_exploded/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/spring_web_main_war_exploded/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-confirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -240,7 +238,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568814394436</updated>
       <workItem from="1568814397836" duration="4382000" />
-      <workItem from="1568819130412" duration="27907000" />
+      <workItem from="1568819130412" duration="28213000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.jsp file, adding a new Request mapper">
       <created>1568821902466</created>
@@ -319,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568964428325</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Change the action of the form and add break tag">
+      <created>1568965362111</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568965362111</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +355,8 @@
     <MESSAGE value="Implement Checkbox and JSTL for looping through the answers to display on student-confirmation page." />
     <MESSAGE value="Add validation to the firstName and lastName input property fields, create a customer bean, create a customer route or request mapping for customer and implement constructor dependency injection." />
     <MESSAGE value="Add request mapping to showForm on ShowForm method, Add link to customer form in index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add request mapping to showForm on ShowForm method, Add link to customer form in index.js" />
+    <MESSAGE value="Change the action of the form and add break tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the action of the form and add break tag" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

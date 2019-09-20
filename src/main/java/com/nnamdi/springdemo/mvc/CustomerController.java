@@ -19,4 +19,9 @@ public class CustomerController {
         theModel.addAttribute("customer", customer);
         return "customer-form";
     }
+
+    @RequestMapping("/processForm")
+    public String processForm() {
+        return "customer-confirmation";
+    }
 }
