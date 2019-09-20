@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f4de681-3eed-4744-b319-60c80834e61a" name="Default Changelist" comment="" />
+    <list default="true" id="8f4de681-3eed-4744-b319-60c80834e61a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spring_web_main_war_exploded/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/spring_web_main_war_exploded/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +240,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568814394436</updated>
       <workItem from="1568814397836" duration="4382000" />
-      <workItem from="1568819130412" duration="27042000" />
+      <workItem from="1568819130412" duration="27907000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.jsp file, adding a new Request mapper">
       <created>1568821902466</created>
@@ -306,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568964178061</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add request mapping to showForm on ShowForm method, Add link to customer form in index.js">
+      <created>1568964428325</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568964428325</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +349,8 @@
     <MESSAGE value="Create property for favorite language and pass it to the confirmation page" />
     <MESSAGE value="Implement Checkbox and JSTL for looping through the answers to display on student-confirmation page." />
     <MESSAGE value="Add validation to the firstName and lastName input property fields, create a customer bean, create a customer route or request mapping for customer and implement constructor dependency injection." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add validation to the firstName and lastName input property fields, create a customer bean, create a customer route or request mapping for customer and implement constructor dependency injection." />
+    <MESSAGE value="Add request mapping to showForm on ShowForm method, Add link to customer form in index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add request mapping to showForm on ShowForm method, Add link to customer form in index.js" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

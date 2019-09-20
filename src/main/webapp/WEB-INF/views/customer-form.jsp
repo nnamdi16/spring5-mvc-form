@@ -19,8 +19,10 @@
 <body>
 <em>Fill out the form. Asterisk (*) means required </em>
 <br><br>
-<form:form action="processForm" modelAttribute="customer">
+<form:form action="showForm" modelAttribute="customer">
     First name: <form:input path="firstName"/>
+
+    <br><br>
     Last name(*): <form:input path="lastName" cssClass="error"/>
 
     <br><br>
