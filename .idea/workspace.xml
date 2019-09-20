@@ -6,10 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f4de681-3eed-4744-b319-60c80834e61a" name="Default Changelist" comment="">
+    <list default="true" id="8f4de681-3eed-4744-b319-60c80834e61a" name="Default Changelist" comment="Create a requestMapping for process form in CustomerController and add break for formatting purpose to index.jsp">
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-confirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568814394436</updated>
       <workItem from="1568814397836" duration="4382000" />
-      <workItem from="1568819130412" duration="28213000" />
+      <workItem from="1568819130412" duration="28545000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.jsp file, adding a new Request mapper">
       <created>1568821902466</created>
@@ -324,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568965362111</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create a requestMapping for process form in CustomerController and add break for formatting purpose to index.jsp">
+      <created>1568965496309</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568965496309</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +362,8 @@
     <MESSAGE value="Add validation to the firstName and lastName input property fields, create a customer bean, create a customer route or request mapping for customer and implement constructor dependency injection." />
     <MESSAGE value="Add request mapping to showForm on ShowForm method, Add link to customer form in index.js" />
     <MESSAGE value="Change the action of the form and add break tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change the action of the form and add break tag" />
+    <MESSAGE value="Create a requestMapping for process form in CustomerController and add break for formatting purpose to index.jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a requestMapping for process form in CustomerController and add break for formatting purpose to index.jsp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
