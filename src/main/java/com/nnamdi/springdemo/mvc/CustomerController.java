@@ -12,6 +12,7 @@ public class CustomerController {
     @Autowired
     private Customer customer;
 
+    @RequestMapping("/showForm")
     public String showForm(Model theModel) {
 //        theModel.addAttribute("customer",new Customer());
         //Alternative to Line 15 for dependency Injection
