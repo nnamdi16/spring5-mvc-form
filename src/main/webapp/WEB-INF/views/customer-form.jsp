@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
 <head>
     <title>Customer Registration Form</title>
@@ -19,11 +20,16 @@
 <body>
 <em>Fill out the form. Asterisk (*) means required </em>
 <br><br>
-<form:form action="showForm" modelAttribute="customer">
+<form:form action="processForm" modelAttribute="customer">
     First name: <form:input path="firstName"/>
 
     <br><br>
-    Last name(*): <form:input path="lastName" cssClass="error"/>
+
+    Last name(*): <form:input path="lastName"/>
+    <form:errors path="lastName" cssClass="error"/>
+
+
+
 
     <br><br>
 
