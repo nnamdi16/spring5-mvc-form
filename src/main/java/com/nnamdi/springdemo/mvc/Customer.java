@@ -1,14 +1,20 @@
 package com.nnamdi.springdemo.mvc;
 
-import javax.validation.constraints.NotNull;
+
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
-@NotNull(message = "is required")
-@Size(min = 4, message = "Size must be more than one")
+;
+
+
 public class Customer {
+
+    @NotEmpty(message = "Please enter last name")
+    @Size(min = 5, max = 1000, message = "last name invalid")
     private String firstName;
 
-
+    @NotEmpty(message = "Please enter last name")
+    @Size(min = 5, max = 100, message = "last name invalid")
     private String lastName;
 
     public String getFirstName() {
