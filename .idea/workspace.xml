@@ -6,8 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f4de681-3eed-4744-b319-60c80834e61a" name="Default Changelist" comment="Create a requestMapping for process form in CustomerController and add break for formatting purpose to index.jsp">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+    <list default="true" id="8f4de681-3eed-4744-b319-60c80834e61a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-confirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -279,7 +288,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568814394436</updated>
       <workItem from="1568814397836" duration="4382000" />
-      <workItem from="1568819130412" duration="66617000" />
+      <workItem from="1568819130412" duration="69225000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.jsp file, adding a new Request mapper">
       <created>1568821902466</created>
@@ -407,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569112575889</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Change the bean url which now allows validation to occur&quot;">
+      <created>1569112641429</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569112641429</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +461,8 @@
     <MESSAGE value="Modify the bean xml link to bind the mvc:annotation driven tag and the validation tag" />
     <MESSAGE value="Create customer-confirmation page and modify ohter pages" />
     <MESSAGE value="Initiate the initBinder to trim spaces in the input field for CustomerController.java, initiate validation annotation in Student.java and @Valid to validate bounded results from input fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initiate the initBinder to trim spaces in the input field for CustomerController.java, initiate validation annotation in Student.java and @Valid to validate bounded results from input fields" />
+    <MESSAGE value="Change the bean url which now allows validation to occur&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the bean url which now allows validation to occur&quot;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
