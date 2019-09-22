@@ -2,11 +2,15 @@ package com.nnamdi.springdemo.mvc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.NotNull;
 import java.util.LinkedHashMap;
 
 public class Student {
 
     private String firstName;
+    @NotNull(message = "is required")
+    @Max(value = 2, message = "Maximum of two words")
     private String lastName;
     private String country;
     private String favoriteLanguage;

@@ -7,13 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f4de681-3eed-4744-b319-60c80834e61a" name="Default Changelist" comment="Create a requestMapping for process form in CustomerController and add break for formatting purpose to index.jsp">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-confirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nnamdi/springdemo/mvc/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-confirmation.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -285,7 +282,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568814394436</updated>
       <workItem from="1568814397836" duration="4382000" />
-      <workItem from="1568819130412" duration="65783000" />
+      <workItem from="1568819130412" duration="66117000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.jsp file, adding a new Request mapper">
       <created>1568821902466</created>
@@ -399,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569096018588</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Create customer-confirmation page and modify ohter pages">
+      <created>1569096258691</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569096258691</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +439,8 @@
     <MESSAGE value="Binding result to the customer-confirmation page as well as checking for errors" />
     <MESSAGE value="Change the validation rule from @NotNull to @NotEmpty and also add Size including min and maximum number" />
     <MESSAGE value="Modify the bean xml link to bind the mvc:annotation driven tag and the validation tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify the bean xml link to bind the mvc:annotation driven tag and the validation tag" />
+    <MESSAGE value="Create customer-confirmation page and modify ohter pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create customer-confirmation page and modify ohter pages" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

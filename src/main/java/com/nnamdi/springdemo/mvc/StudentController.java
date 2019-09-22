@@ -4,8 +4,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.validation.Valid;
 
 @Controller
 @Component
@@ -15,7 +18,6 @@ public class StudentController {
     private Student theStudent;
 
     @RequestMapping("/showForm")
-
     public String showForm(Model theModel) {
 
 
@@ -28,10 +30,14 @@ public class StudentController {
     }
 
     @RequestMapping("/processForm")
-    public String processForm(@ModelAttribute("student") Student theStudent) {
-        //Log the input data
-        System.out.println("the student: " + theStudent.getFirstName() + " " + theStudent.getLastName() );
-        return "student-confirmation";
+    public String processForm(@Valid @ModelAttribute("student") Student theStudent, BindingResult theBinder) {
+        if (theBinder.hasErrors()) {
+            return "student-form";
+        } else {
+            //Log the input data
+            System.out.println("the student: " + theStudent.getFirstName() + " " + theStudent.getLastName());
+            return "student-confirmation";
+        }
     }
 
 }
